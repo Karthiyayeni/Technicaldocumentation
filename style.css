@@ -1,0 +1,87 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header{
+ color:black;
+ font-size:20px;
+ font-weight:bold;
+}
+.main-title{
+ background-color: black;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  text-align: center;
+  position: fixed;
+}
+#section-header {
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px;
+  text-align: center;
+  position: fixed;
+}
+#navbar {
+  background-color: grey;
+  margin: 0px;
+  width: 15%;
+  height: 100vh;
+  margin-top: 0px;
+  position: fixed;
+  float: left;
+}
+.nav-link {
+  display: block;
+  text-decoration: none;
+  height: 20px;
+  color: #000;
+  padding-top: 25px;
+  font-weight: bold;
+  margin-left:2px;
+  cursor:pointer;
+}
+#section-header {
+  text-align: center;
+  margin
+}
+.hedaer-text{
+font-size:20px;
+}
+.main-section{
+ margin-left:300px;
+  font-family: "Open Sans", sans-serif;
+  font-size:15px;
+}
+#text {
+  font-family: "Open Sans", sans-serif;
+}
+code{
+ color:blue;
+}
+
+@media only screen and (max-width:700px){
+ #navbar {
+  background-color: grey;
+  margin: 0px;
+  width: 25%;
+  height: 100vh;
+  margin-top: 0px;
+  position: fixed;
+  float: left;
+}
+.main-section{
+ margin-left:200px;
+  font-family: "Open Sans", sans-serif;
+  font-size:15px;
+}
+
+}

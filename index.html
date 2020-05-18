@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <body>
+    <header class="main-title">
+      Java Tutorial
+    </header>
+    <nav id="navbar">
+      <header>JAVA</header>
+      <a href="#Introduction" class="nav-link">Introduction</a>
+      <a href="#Java_Syntax" class="nav-link">Java Syntax</a>
+      <a href="#Java_Comments" class="nav-link">Java Comments</a>
+      <a href="#Java_Variables" class="nav-link">Java Variables</a>
+      <a href="#Java_DataTypes" class="nav-link">Java DataTypes</a>
+      <a href="#Java_TypeCasting" class="nav-link">Java TypeCasting</a>
+      <a href="#Java_Operators" class="nav-link">Java Operators</a>
+      <a href="#Java_Strings" class="nav-link">Java Strings</a>
+      <a href="#Java_Math" class="nav-link">Java Math</a>
+      <a href="#Java_Boolean" class="nav-link">Java Boolean</a>
+      <a href="#Java_if-else" class="nav-link">Java if-else</a>
+      <a href="#Java_Switch" class="nav-link">Java Switch</a>
+      <a href="#Java_while-loop" class="nav-link">Java while-loop</a>
+      <a href="#Java_for_loop" class="nav-link">Java For loop</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+
+        <p><strong>What is HTML?</strong></p>
+        <p>Java is a popular programming language, created in 1995.</p>
+        <p>It is owned by Oracle, and more than 3 billion devices run Java.</p>
+        <p>It is used for:</p>
+
+        <span>
+          <ul>
+            <li>
+              Mobile applications (specially Android apps)
+            </li>
+            <li>Desktop applications</li>
+            <li>Web applications</li>
+            <li>Web servers and application serverst</li>
+            <li>Games</li>
+            <li>
+              Database connection
+            </li>
+            <li>
+              And much, much more!
+            </li>
+          </ul>
+        </span>
+        <span>
+          <p><strong>Why use java?</strong></p>
+          <ul>
+            <li>
+              Java works on different platforms (Windows, Mac, Linux, Raspberry
+              Pi, etc.)
+            </li>
+            <li>
+              It is one of the most popular programming language in the world
+            </li>
+            <li>It is easy to learn and simple to use</li>
+            <li>It is open-source and free</li>
+            <li>It is secure, fast and powerful</li>
+            <li>
+              It has a huge community support (tens of millions of developers)
+            </li>
+            <li>
+              Java is an object oriented language which gives a clear structure
+              to programs and allows code to be reused, lowering development
+              costs
+            </li>
+            <li>
+              As Java is close to C++ and C#, it makes it easy for programmers
+              to switch to Java or vice versa
+            </li>
+          </ul>
+        </span>
+      </section>
+      <section class="main-section" id="Java_Syntax">
+        <header>Java Syntax</header>
+        <p>Lets's look at a simple code:</p>
+        <code>
+          <p>public class MyClass {</p>
+          <p>public static void main(String[] args) {</p>
+          <p>System.out.println("Hello World");</p>
+          <p>}</p>
+          <p>}</p>
+        </code>
+        <p><strong>Example explained:</strong></p>
+        <p>
+          Every line of code that runs in Java must be inside a class. In our
+          example, we named the class MyClass. A class should always start with
+          an uppercase first letter.
+        </p>
+        <p>
+          Note: Java is case-sensitive: "MyClass" and "myclass" has different
+          meaning
+        </p>
+        <p>
+          The name of the java file must match the class name. When saving the
+          file, save it using the class name and add ".java" to the end of the
+          filename. To run the example above on your computer, make sure that
+          Java is properly installed: Go to the Get Started Chapter for how to
+          install Java. The output should be:
+        </p>
+      </section>
+      <section class="main-section" id="Java_Comments">
+        <header>Java Comments</header>
+
+        <p>
+          Comments can be used to explain Java code, and to make it more
+          readable. It can also be used to prevent execution when testing
+          alternative code.
+        </p>
+        <p>Single-line comments start with two forward slashes (//).</p>
+        <p>
+          Any text between // and the end of the line is ignored by Java (will
+          not be executed).
+        </p>
+        <p>This example uses a single-line comment before a line of code:</p>
+        <code>
+          <p>// This is a comment</p>
+          <p>System.out.println("Hello World");</p>
+        </code>
+      </section>
+      <section class="main-section" id="Java_Variables">
+        <header>Java Variables</header>
+        <p>Variables are containers for storing data values.</p>
+        <p>In Java, there are different types of variables, for example:</p>
+        <ul>
+          <li>
+            String - stores text, such as "Hello". String values are surrounded
+            by double quotes
+          </li>
+          <li>
+            int - stores integers (whole numbers), without decimals, such as 123
+            or -123
+          </li>
+          <li>
+            float - stores floating point numbers, with decimals, such as 19.99
+            or -19.99
+          </li>
+          <li>
+            char - stores single characters, such as 'a' or 'B'. Char values are
+            surrounded by single quotes
+          </li>
+          <li>boolean - stores values with two states: true or false</li>
+        </ul>
+        <code>
+          Syntax:
+          <p>type variable = value;</p>
+        </code>
+      </section>
+      <section class="main-section" id="Java_DataTypes">
+        <header>Java DataTypes</header>
+        <p>Data types are divided into two groups:</p>
+        <p>
+          Primitive data types - includes byte, short, int, long, float, double,
+          boolean and char
+        </p>
+        <p>
+          Non-primitive data types - such as String, Arrays and Classes (you
+          will learn more about these in a later chapter)
+        </p>
+        <p>Example:</p>
+        <code>
+          <p>byte myNum = 100;</p>
+          <p>System.out.println(myNum);</p>
+        </code>
+      </section>
+      <section class="main-section" id="Java_TypeCasting">
+        <header>Java TypeCasting</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_Operators">
+        <header>Java Operators</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_Strings">
+        <header>Java Strings</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_Math">
+        <header>Java Math</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_Boolean">
+        <header>Java Boolean</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_if-else">
+        <header>Java if-else</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_Switch">
+        <header>Java Switch</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_while-loop">
+        <header>Java while-loop</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+        </p>
+      </section>
+      <section class="main-section" id="Java_for_loop">
+        <header>Java For loop</header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, odit
+          beatae sed nemo, magni voluptatum laboriosam error ab, natus dolorum
+          eligendi nesciunt pariatur quibusdam aut suscipit ipsa harum facere
+          amet iure. Nesciunt quas perspiciatis fugit consequatur reprehenderit
+          nisi? Amet impedit autem aut reiciendis commodi voluptatem cum officia
+          architecto, exercitationem maiores voluptas excepturi libero
+          accusantium eveniet assumenda rem deleniti? Vel optio doloremque rerum
+          animi labore veritatis voluptates architecto placeat beatae
+          perspiciatis praesentium, laborum, eveniet quasi, a ducimus error
+          quisquam cupiditate. Officiis quo unde repellendus excepturi natus
+          quasi vitae totam, ad enim? Tempora, optio placeat? Voluptatem
+          cupiditate, repellendus ipsum veritatis neque temporibus!
+          <code>
+            just adding teh last code
+          </code>
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
